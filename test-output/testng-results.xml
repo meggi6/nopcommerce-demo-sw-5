@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-12T12:16:22 GMT" name="testsuite" finished-at="2023-12-12T12:20:09 GMT" duration-ms="226511">
+    <groups>
+      <group name="regression">
+        <method signature="ComputerPageTest.verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:3, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:3, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogOutSuccessFully()[pri:4, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" name="verifyThatUserShouldLogOutSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:2, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessageWithInValidCredentials()[pri:2, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" name="verifyTheErrorMessageWithInValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory()[pri:2, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:1, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:1, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:1, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-12T12:16:22 GMT" name="All Test" finished-at="2023-12-12T12:20:09 GMT" duration-ms="226511">
+      <class name="com.nopcommerce.demo.testsuite.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:17:41 GMT" name="setUp" finished-at="2023-12-12T12:17:50 GMT" duration-ms="9346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:17:50 GMT" name="inIt" finished-at="2023-12-12T12:17:50 GMT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:1, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:17:50 GMT" name="verifyUserShouldNavigateToRegisterPageSuccessfully" finished-at="2023-12-12T12:17:51 GMT" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:17:51 GMT" name="tearDown" finished-at="2023-12-12T12:17:53 GMT" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:17:53 GMT" name="setUp" finished-at="2023-12-12T12:18:03 GMT" duration-ms="10268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:03 GMT" name="inIt" finished-at="2023-12-12T12:18:03 GMT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory()[pri:2, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:03 GMT" name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" finished-at="2023-12-12T12:18:05 GMT" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:05 GMT" name="tearDown" finished-at="2023-12-12T12:18:06 GMT" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:06 GMT" name="setUp" finished-at="2023-12-12T12:18:16 GMT" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:16 GMT" name="inIt" finished-at="2023-12-12T12:18:16 GMT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldCreateAccountSuccessfully()[pri:3, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:16 GMT" name="verifyThatUserShouldCreateAccountSuccessfully" finished-at="2023-12-12T12:18:38 GMT" duration-ms="21941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldCreateAccountSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@10db82ae]" started-at="2023-12-12T12:18:38 GMT" name="tearDown" finished-at="2023-12-12T12:18:41 GMT" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.RegisterPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.ComputerPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:18:41 GMT" name="setUp" finished-at="2023-12-12T12:18:50 GMT" duration-ms="8982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:18:50 GMT" name="inIt" finished-at="2023-12-12T12:18:50 GMT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToComputerPageSuccessfully()[pri:1, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:18:50 GMT" name="verifyUserShouldNavigateToComputerPageSuccessfully" finished-at="2023-12-12T12:18:52 GMT" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToComputerPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:18:52 GMT" name="tearDown" finished-at="2023-12-12T12:18:53 GMT" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:18:53 GMT" name="setUp" finished-at="2023-12-12T12:19:03 GMT" duration-ms="10310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:03 GMT" name="inIt" finished-at="2023-12-12T12:19:03 GMT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:2, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:03 GMT" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" finished-at="2023-12-12T12:19:06 GMT" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToDesktopsPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:06 GMT" name="tearDown" finished-at="2023-12-12T12:19:08 GMT" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:08 GMT" name="setUp" finished-at="2023-12-12T12:19:16 GMT" duration-ms="8319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:16 GMT" name="inIt" finished-at="2023-12-12T12:19:16 GMT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:16 GMT" name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" data-provider="buildYourComputerData" finished-at="2023-12-12T12:19:23 GMT" duration-ms="7086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.2 GHz Intel Pentium Dual-Core E2200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 GB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[320 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vista Home [+$50.00]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Microsoft Office [+$50.00]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:23 GMT" name="tearDown" finished-at="2023-12-12T12:19:27 GMT" duration-ms="3998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:27 GMT" name="setUp" finished-at="2023-12-12T12:19:35 GMT" duration-ms="7780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:35 GMT" name="inIt" finished-at="2023-12-12T12:19:35 GMT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:35 GMT" name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" data-provider="buildYourComputerData" finished-at="2023-12-12T12:19:45 GMT" duration-ms="9812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4GB [+$20.00]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400 GB [+$100.00]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vista Premium [+$60.00]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Acrobat Reader [+$10.00]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:45 GMT" name="tearDown" finished-at="2023-12-12T12:19:46 GMT" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:46 GMT" name="setUp" finished-at="2023-12-12T12:19:56 GMT" duration-ms="9275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:56 GMT" name="inIt" finished-at="2023-12-12T12:19:56 GMT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:19:56 GMT" name="verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully" data-provider="buildYourComputerData" finished-at="2023-12-12T12:20:05 GMT" duration-ms="8997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8GB [+$60.00]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[320 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vista Home [+$50.00]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Total Commander [+$5.00]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldBuildYourOwnComputerAndAddToCartSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@501edcf1]" started-at="2023-12-12T12:20:05 GMT" name="tearDown" finished-at="2023-12-12T12:20:09 GMT" duration-ms="4005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.ComputerPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:23 GMT" name="setUp" finished-at="2023-12-12T12:16:34 GMT" duration-ms="10781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:34 GMT" name="inIt" finished-at="2023-12-12T12:16:34 GMT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="userShouldNavigateToLoginPageSuccessFully()[pri:1, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:34 GMT" name="userShouldNavigateToLoginPageSuccessFully" finished-at="2023-12-12T12:16:37 GMT" duration-ms="2550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:37 GMT" name="tearDown" finished-at="2023-12-12T12:16:40 GMT" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:40 GMT" name="setUp" finished-at="2023-12-12T12:16:51 GMT" duration-ms="10719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:51 GMT" name="inIt" finished-at="2023-12-12T12:16:51 GMT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyTheErrorMessageWithInValidCredentials()[pri:2, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:51 GMT" name="verifyTheErrorMessageWithInValidCredentials" finished-at="2023-12-12T12:16:55 GMT" duration-ms="4356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:55 GMT" name="tearDown" finished-at="2023-12-12T12:16:57 GMT" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:16:57 GMT" name="setUp" finished-at="2023-12-12T12:17:08 GMT" duration-ms="11282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:08 GMT" name="inIt" finished-at="2023-12-12T12:17:08 GMT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:3, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:08 GMT" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" finished-at="2023-12-12T12:17:17 GMT" duration-ms="9053" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Log out']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a81250d8badb900ec51549fb8030ae7e, findElement {using=xpath, value=//a[normalize-space()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59655/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a81250d8badb900ec51549fb8030ae7e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Log out']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a81250d8badb900ec51549fb8030ae7e, findElement {using=xpath, value=//a[normalize-space()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59655/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a81250d8badb900ec51549fb8030ae7e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+at com.nopcommerce.demo.pages.HomePage.isLogOutLinkDisplay(HomePage.java:48)
+at com.nopcommerce.demo.testsuite.LoginPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials(LoginPageTest.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:17 GMT" name="tearDown" finished-at="2023-12-12T12:17:19 GMT" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:19 GMT" name="setUp" finished-at="2023-12-12T12:17:28 GMT" duration-ms="8799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:28 GMT" name="inIt" finished-at="2023-12-12T12:17:28 GMT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldLogOutSuccessFully()[pri:4, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:28 GMT" name="verifyThatUserShouldLogOutSuccessFully" finished-at="2023-12-12T12:17:37 GMT" duration-ms="9236" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Log out']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f4615b8b357cc7708dc03e05338528c, findElement {using=xpath, value=//a[normalize-space()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59695/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f4615b8b357cc7708dc03e05338528c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Log out']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f4615b8b357cc7708dc03e05338528c, findElement {using=xpath, value=//a[normalize-space()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59695/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f4615b8b357cc7708dc03e05338528c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.nopcommerce.demo.utilities.Utility.clickOnElement(Utility.java:43)
+at com.nopcommerce.demo.pages.HomePage.clickOnLogOutLink(HomePage.java:53)
+at com.nopcommerce.demo.testsuite.LoginPageTest.verifyThatUserShouldLogOutSuccessFully(LoginPageTest.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogOutSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@23282c25]" started-at="2023-12-12T12:17:37 GMT" name="tearDown" finished-at="2023-12-12T12:17:41 GMT" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+    </test> <!-- All Test -->
+  </suite> <!-- testsuite -->
+</testng-results>

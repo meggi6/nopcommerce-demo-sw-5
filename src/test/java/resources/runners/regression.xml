@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http;//testng.org/testng-1.0.dtd">
+<suite name="regression Suite" verbose="1">
+    <groups>
+        <run>
+            <include name="regression"></include>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.nopcommerce.demo.customlisteners.CustomListeners"></listener>
+    </listeners>
+    <test name="regression Test">
+        <classes>
+            <class name="com.nopcommerce.demo.testsuite.ComputerPageTest"></class>
+            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
+            <class name="com.nopcommerce.demo.testsuite.RegisterPageTest"></class>
+        </classes>
+    </test>
+</suite>
